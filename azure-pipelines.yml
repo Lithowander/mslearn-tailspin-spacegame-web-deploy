@@ -56,3 +56,4 @@ variables:
        appName: $(WebAppName)
        azureSubscription: 'Resource Manager - Tailspin - Space Game'
        imageName: $(RegistryName)/$(webRepository):$(build.buildId)
+       
